@@ -5,6 +5,13 @@ html, body {
 }
 
 .intro {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: grey;
 
 }
 
@@ -18,4 +25,35 @@ h1 {
 
 p {
   color: blue;
+}
+
+
+.setup {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: blue;
+}
+
+.workflow {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: green;
+}
+
+.external {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: red;
 }
