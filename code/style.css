@@ -1,4 +1,21 @@
 /* Example styling of a h1 element */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+
+}
+
+.intro ul li {
+  list-style-type: square;
+}
+
 h1 {
-  color: #0025FF;
+
+}
+
+p {
+  color: blue;
 }
