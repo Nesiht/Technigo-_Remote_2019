@@ -2,58 +2,92 @@
 html, body {
   margin: 0;
   padding: 0;
+  text-align: center;
+
 }
 
-.intro {
+div {
   position: relative;
   margin: 0;
   width: 100%;
   color: white;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: grey;
-
 }
 
+h1, h2, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 .intro ul li {
-  list-style-type: square;
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
+  font-size: 70px;
+}
 
+h2 {
+  font-size: 20px;
 }
 
 p {
-  color: blue;
+  
+}
+
+a, a:visited {
+	color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
-.setup {
-  position: relative;
-  margin: 0;
-  width: 100%;
-  color: white;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: blue;
+
+/* Blocks */
+.intro {
+  background-color: #3a7f67;
 }
 
-.workflow {
-  position: relative;
-  margin: 0;
-  width: 100%;
-  color: white;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: green;
+.info {
+  background-color: #3a757f;
+}
+
+.roles {
+  background-color: #3a527f;
+}
+
+.planning {
+  background-color: #453a7f;
+}
+
+.sprint {
+  background-color: #673a7f;
+}
+
+.standup {
+  background-color: #7f3a75;
+}
+
+.review {
+  background-color: #673a7f;
+}
+
+.retrospective {
+  background-color: #453a7f;
+}
+
+.outro {
+  background-color: #3a527f;
 }
 
 .external {
-  position: relative;
-  margin: 0;
-  width: 100%;
-  color: white;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: red;
+  background-color: #3a757f;
 }
+
+
+/* LINKS */
