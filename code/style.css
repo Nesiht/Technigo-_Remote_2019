@@ -1,9 +1,7 @@
-/* Example styling of a h1 element */
 html, body {
   margin: 0;
   padding: 0;
   text-align: center;
-
 }
 
 div {
@@ -39,7 +37,6 @@ p {
   line-height: 200%;
 }
 
-
 code {
     background-color: #3a7f67;
     border-radius: 10px;
@@ -66,8 +63,6 @@ a:hover {
   text-decoration: underline;
   color: #ffffff;
 }
-
-
 
 /* Blocks */
 .intro {
@@ -110,6 +105,3 @@ a:hover {
 .external {
   background-color: #3a757f;
 }
-
-
-/* LINKS */
